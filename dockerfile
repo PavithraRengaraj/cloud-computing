@@ -10,7 +10,7 @@ copy . /app
 Run apt-get update && apt-get install -y python3 python3-pip
 
 #set environment variables
-ENV  NAME W orld
+ENV  NAME World
 
 # Run a command to start the application 
 CMD["python3","app.py"]
